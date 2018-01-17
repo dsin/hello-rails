@@ -1,6 +1,14 @@
-Start Server
-bin/rails server
+**Installation**
+```
+$ rvm install ruby-2.2.2
+$ gem install bundler
+$ bundle
+```
 
-Test
+**Start Server**
+```
+$ bin/rails server
+```
 
-ref : http://guides.rubyonrails.org/getting_started.html
+**References**
+http://guides.rubyonrails.org/getting_started.html

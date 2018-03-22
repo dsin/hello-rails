@@ -4,9 +4,12 @@ Rails.application.routes.draw do
   # root
   root 'welcome#index'
 
+  namespace :articles do
+   get '/page', action: 'page'
+  end
+
   # generate CRUD route to article controller
   resources :articles
-
 
   resources :articles do
     resources :comments

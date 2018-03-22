@@ -1,6 +1,6 @@
 **Installation**
 ```
-$ rvm install ruby-2.2.2
+$ rvm install ruby-2.1.2
 $ gem install bundler
 $ bundle
 ```
